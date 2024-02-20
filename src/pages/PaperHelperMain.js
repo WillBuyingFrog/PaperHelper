@@ -1,8 +1,7 @@
 import Header from "../components/header";
 import {Box} from "@chakra-ui/react";
-import SamplePaper from "../assets/sample-paper.pdf";
 import PdfViewer from "../components/PdfViewer";
-
+const SamplePaper = process.env.PUBLIC_URL + '/sample-paper.pdf';
 
 function PaperHelperMain(){
     return (
